@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  background-color: #0f0014;
+  color: white;
+  height: 100vh;
+}
+
+.navbar {
+  height: 18vh;
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+  /* margin-top: 35px; */
+}
+
+.hero {
+  /* margin-top: 18px; */
+  height: 50vh;
+}
+
+.hero-text {
+  font-size: 108px;
+  display: flex;
+  justify-content: center;
+  font-family: "Zen Dots";
+  padding-bottom: 30px;
+  background: linear-gradient(
+    90deg,
+    #712b89 18.59%,
+    #5b19ae 45.67%,
+    #134b7e 50.53%,
+    #689895 85.26%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-text span {
+  background: linear-gradient(
+    270deg,
+    #da98ab 0%,
+    #b27df4 34.47%,
+    #1688f1 62.35%,
+    #da98ab 100% 97.33%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: animate 5s linear infinite;
+  background-size: 200%;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 200%;
+  }
+}
+
+.supply {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+}
+
+.supply span {
+  color: #eaaeff;
+  font-family: "Zen Dots";
+  padding-right: 15px;
+  font-size: 18px;
+}
+
+.supply a {
+  font-family: "Zen Dots";
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+.mint {
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+}
+
+.mint button {
+  box-sizing: border-box;
+  height: 50px;
+  width: 260px;
+  border-radius: 10px;
+  border: 2px solid#EAAEFF;
+  background-color: transparent;
+  font-family: "Zen Dots";
+  font-size: 25px;
+  background: linear-gradient(
+    270deg,
+    #e97070 0%,
+    #a9a7ff 34.47%,
+    #ae68f4 62.35%,
+    #a9d6ff 97.33%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  cursor: pointer;
+}
+
+.minted {
+  display: flex;
+  justify-content: center;
+  font-family: "Zen Dots";
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  height: 15vh;
+  display: flex;
+  align-items: flex-end;
+  /* margin-top: 150px; */
+}
+
+.footer a {
+  font-family: "Montserrat";
+  padding-right: 12px;
+}
+
+.footer span {
+  font-family: "Montserrat";
+  font-size: 16px;
+  background: linear-gradient(
+    270deg,
+    #e97070 0%,
+    #a9a7ff 34.47%,
+    #ae68f4 62.35%,
+    #a9d6ff 97.33%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.login button {
+  box-sizing: border-box;
+  height: 30px;
+  width: 80px;
+  border: 2px solid#EAAEFF;
+  border-radius: 5px;
+  background-color: transparent;
+  font-family: "Zen Dots";
+  font-size: 14px;
+  background: linear-gradient(
+    270deg,
+    #e97070 0%,
+    #a9a7ff 34.47%,
+    #ae68f4 62.35%,
+    #a9d6ff 97.33%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    margin-left: 15px;
+  }
+
+  .hero-text {
+    font-size: 50px;
+  }
+
+  .mint button {
+    width: 200px;
+    font-size: 20px;
+  }
+}
