@@ -1,6 +1,8 @@
 ## A mint engine to mint lands
 
 Website: [Click Here](https://mint.de3verse.com/)
+<br>
+<br>
 Install dependencies
 ```
 npm install
